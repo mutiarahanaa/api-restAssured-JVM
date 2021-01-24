@@ -1,0 +1,583 @@
+Request method:	GET
+@Request URI:	https://reqres.in/api/users?page=2&per_page=4&id=8
+Proxy:			<none>
+Request params:	page=2
+				per_page=4
+					id=8
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "data": {
+        "id": 8,
+/        "email": "lindsay.ferguson@reqres.in",
+!        "first_name": "Lindsay",
+!        "last_name": "Ferguson",
+<        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Request method:	POST
+)Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "peter@klaven"
+}
+{
+     "error": "Missing password"
+}
+Request method:	POST
+)Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "719",
+,    "createdAt": "2021-01-23T19:08:21.662Z"
+}
+Request method:	DELETE
+-Request URI:	https://reqres.in/api/users/719
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=719
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+Request method:	POST
+)Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "904",
+,    "createdAt": "2021-01-23T19:08:23.898Z"
+}
+Request method:	PUT
+-Request URI:	https://reqres.in/api/users/904
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=904
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "CEO"
+}
+{
+    "name": "morpheus",
+    "job": "CEO",
+,    "updatedAt": "2021-01-23T19:08:25.124Z"
+}
+Request method:	POST
+)Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "142",
+,    "createdAt": "2021-01-23T19:08:26.273Z"
+}
+Request method:	POST
+,Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+#    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+{
+    "id": 4,
+!    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	GET
+@Request URI:	https://reqres.in/api/users?page=1&per_page=1&id=1
+Proxy:			<none>
+Request params:	page=1
+				per_page=1
+					id=1
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+ First name employee is = George
+{
+    "data": {
+        "id": 1,
++        "email": "george.bluth@reqres.in",
+         "first_name": "George",
+        "last_name": "Bluth",
+<        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+	Request method:	POST
+	)Request URI:	https://reqres.in/api/login
+	Proxy:			<none>
+	Request params:	<none>
+	Query params:	<none>
+	Form params:	<none>
+	Path params:	<none>
+	Headers:		Accept=*/*
+	1				Content-Type=application/json; charset=UTF-8
+	Cookies:		<none>
+	Multiparts:		<none>
+	Body:
+	{
+	#    "email": "eve.holt@reqres.in",
+	    "password": "cityslicka"
+	}
+	{
+	!    "token": "QpwL5tke4Pnpja7X4"
+	}
+
+Request method:	POST
+
+)Request URI:	https://reqres.in/api/users
+
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+Form params:	<none>
+
+Path params:	<none>
+
+Headers:		Accept=*/*
+
+1				Content-Type=application/json; charset=UTF-8
+
+Cookies:		<none>
+
+Multiparts:		<none>
+
+Body:
+
+{
+
+    "name": "morpheus",
+
+    "job": "leader"
+
+}
+
+{
+
+    "name": "morpheus",
+
+    "job": "leader",
+
+    "id": "57",
+
+,    "createdAt": "2021-01-23T19:08:30.748Z"
+
+}
+
+Request method:	PATCH
+
+,Request URI:	https://reqres.in/api/users/57
+
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+Form params:	<none>
+
+Path params:	id=57
+
+Headers:		Accept=*/*
+
+1				Content-Type=application/json; charset=UTF-8
+
+Cookies:		<none>
+
+Multiparts:		<none>
+
+Body:
+
+{
+
+    "job": "CEO"
+
+}
+
+{
+
+    "job": "CEO",
+
+,    "updatedAt": "2021-01-23T19:08:31.900Z"
+
+}
+Request method:	POST
+,Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "sydney@fife"
+}
+{
+     "error": "Missing password"
+}
+Request method:	GET
+@Request URI:	https://reqres.in/api/users?page=2&per_page=4&id=8
+Proxy:			<none>
+Request params:	page=2
+				per_page=4
+					id=8
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "data": {
+        "id": 8,
+/        "email": "lindsay.ferguson@reqres.in",
+!        "first_name": "Lindsay",
+!        "last_name": "Ferguson",
+<        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Request method:	POST
+)Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "peter@klaven"
+}
+{
+     "error": "Missing password"
+}
+Request method:	POST
+)Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "235",
+,    "createdAt": "2021-01-23T19:08:35.719Z"
+}
+Request method:	DELETE
+-Request URI:	https://reqres.in/api/users/235
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=235
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+Request method:	POST
+)Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "922",
+,    "createdAt": "2021-01-23T19:08:37.685Z"
+}
+Request method:	PUT
+-Request URI:	https://reqres.in/api/users/922
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=922
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "CEO"
+}
+{
+    "name": "morpheus",
+    "job": "CEO",
+,    "updatedAt": "2021-01-23T19:08:38.899Z"
+}
+Request method:	POST
+)Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "361",
+,    "createdAt": "2021-01-23T19:08:39.651Z"
+}
+Request method:	POST
+,Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+#    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+{
+    "id": 4,
+!    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	GET
+@Request URI:	https://reqres.in/api/users?page=1&per_page=1&id=1
+Proxy:			<none>
+Request params:	page=1
+				per_page=1
+					id=1
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+ First name employee is = George
+{
+    "data": {
+        "id": 1,
++        "email": "george.bluth@reqres.in",
+         "first_name": "George",
+        "last_name": "Bluth",
+<        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Request method:	POST
+)Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+#    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+{
+!    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+)Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "197",
+,    "createdAt": "2021-01-23T19:08:42.961Z"
+}
+Request method:	PATCH
+-Request URI:	https://reqres.in/api/users/197
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=197
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "job": "CEO"
+}
+{
+    "job": "CEO",
+,    "updatedAt": "2021-01-23T19:08:44.080Z"
+}
+Request method:	POST
+,Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "sydney@fife"
+}
+{
+     "error": "Missing password"
+}
